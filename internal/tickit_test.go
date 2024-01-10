@@ -5,8 +5,6 @@ import (
 	"time"
 )
 
-type TodoList = []Task
-
 func TestTickit(t *testing.T) {
 	t.Run("should have 5 tasks in list", func(t *testing.T) {
 		var task1 Task = NewTask("Go for a walk", time.Now().AddDate(0, -1, 0), true)

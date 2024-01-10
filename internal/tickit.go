@@ -8,6 +8,8 @@ type Task struct {
 	IsTicked bool
 }
 
+type TodoList = []Task
+
 func NewTask(task string, started time.Time, isTicked bool) Task {
 	return Task{task, started, isTicked}
 }
