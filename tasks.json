@@ -1,12 +1,14 @@
 [
-  {
-    "Task": "learn file i/o in Go",
-    "Started": "2024-01-10T23:52:12.905594895+05:30",
-    "IsTicked": false
-  },
-  {
-    "Task": "walk 5000 steps",
-    "Started": "2024-01-10T23:52:27.259646544+05:30",
-    "IsTicked": false
-  }
+ {
+  "ID": 1,
+  "Task": "complete tickit cli app",
+  "Started": "2024-01-12T00:41:36.591455703+05:30",
+  "IsTicked": true
+ },
+ {
+  "ID": 2,
+  "Task": "read 2 pages of book",
+  "Started": "2024-01-12T00:41:45.907098181+05:30",
+  "IsTicked": false
+ }
 ]
