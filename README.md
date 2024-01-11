@@ -6,7 +6,7 @@ TickIt - where tasks meet simplicity! Elevate your productivity game with this s
 
 - **Effortless Task Entry:** Add tasks seamlessly with a single command.
 - **Tick and Triumph:** Mark tasks as complete and revel in your achievements.
-- **Clean and Commanding CLI:** View your tasks with a simple and intuitive command-line interface.
+- **Clean and Commanding CLI:** View your tasks with a simple command-line interface.
 
 🚀 **Get Started:**
 
@@ -21,8 +21,9 @@ TickIt - where tasks meet simplicity! Elevate your productivity game with this s
 2. **Command Your Tasks:**
    ```bash
    tickit -a "Your task magic"
-   tickit -c <task_id>
+   tickit -d <task_id>
    tickit -l
+   tickit -t <task_id>
    ```
 
 🌟 **Tick Your Way to Success:**
