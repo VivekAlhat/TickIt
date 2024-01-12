@@ -10,25 +10,53 @@ TickIt - where tasks meet simplicity! Elevate your productivity game with this s
 
 🚀 **Get Started:**
 
-1. **Clone & Build:**
+- **For Development:**
 
-   ```bash
-   git clone https://github.com/VivekAlhat/TickIt.git
-   cd tickit
-   make build
-   ```
+  You can follow below instructions to develop this project locally.
 
-2. **Command Your Tasks:**
-   ```bash
-   tickit -a "Your task magic"
-   tickit -d <task_id>
-   tickit -l
-   tickit -t <task_id>
-   ```
+  ```bash
+  git clone https://github.com/VivekAlhat/TickIt.git
+  cd tickit
+  make build
+  ```
+
+- **For Usage:**
+
+  Download the binary for your OS from the latest [releases](https://github.com/VivekAlhat/TickIt/releases) page.
+
+- **Command Your Tasks:**
+
+  - Add a new task:
+
+  ```bash
+  tickit -a "Your task magic"
+  ```
+
+  - List all tasks:
+
+  ```bash
+  tickit -l
+  ```
+
+  - Mark task as complete:
+
+  ```bash
+  tickit -t <task_id>
+  ```
+
+  - Delete a task:
+
+  ```bash
+  tickit -d <task_id>
+  ```
+
+  - Help (list all available commands):
+
+  ```bash
+  tickit -h
+  ```
 
 🌟 **Tick Your Way to Success:**
-Upgrade your task management game with TickIt. Your tasks, your way!
+TickIt - Your command-line companion for ticking tasks off your list! 🎯
 
 **License:** MIT - [LICENSE](LICENSE) 📜
-
-TickIt - Your command-line companion for ticking tasks off your list! 🎯
